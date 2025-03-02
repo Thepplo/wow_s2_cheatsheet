@@ -9,8 +9,8 @@
         h1 { color: #d4af37; text-decoration: underline;}
         h2 { color:  #d4af37; text-decoration: underline;}
         p { color: lightgrey;}
-        .container { max-width: 800px; margin: auto; }
-        .dungeon { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; background: #222; color: black; }
+        .container { max-width: 800px; margin: auto; border: none;}
+        .dungeon { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; }
         .dangerousmob { color: #f5424b; font-weight: bold;  text-decoration: underline;}
         .abilitynoint { color: #e9f542; font-weight: bold;  text-decoration: underline;}
         .tankbuster { color: #f542bc; font-weight: bold;  text-decoration: underline;}
@@ -27,23 +27,28 @@
 <body>
     <h1> Before First Boss</h1>
     <div class="container">
-        <div class="dungeon">
+        <div class="area">
             <h2>Notable Mobs:</h2>
-            <p><strong class = "dangerousmob">Mechanized Peacekeeper:</strong> Most dangerous mob<br>
+            <p><strong class = "dangerousmob">Mechanized Peacekeeper:</strong><br>
+                Most dangerous mob<br>
                 <span class="abilitynoint">Tear Gas:</span> Spawns swirlies<br>
                 <span class="tankbuster">Charged shield:</span> Strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
-            <p><strong class = "caster">Refreshment vendor:</strong> Dangerous caster<br>
+            <p><strong class = "caster">Refreshment vendor:</strong><br>
+                Dangerous caster<br>
                 <span class="abilitywithint"> Iced spritzer:</span> Single target stun like Harvester, can be interrupted.<br></p>
-            <p><strong class = "dangerousmob">Hired Assassin:</strong> Potential wipe if not interrupted.<br>
+            <p><strong class = "dangerousmob">Hired Assassin:</strong><br>
+                Potential wipe if not interrupted.<br>
                 <span class="abilitywithint"> Toxic Blades:</span> Buffs itself with poison damage, must be interrupted.<br>
                 <span class="abilitywithcc"> Fan of Knives:</span> Pulses aoe damage, can be ccd. <br></p>
-            <p><strong class ="dangerousmob">Addled Thug:</strong> Can cause ninja-pulls.<br>
+            <p><strong class ="dangerousmob">Addled Thug:</strong><br>
+                Can cause ninja-pulls.<br>
                 <span class="abilitywithcc"> Uppercut:</span> Charges one player, knocking them back.<br></p>
-            <p><strong class ="dangeoursmob"> Mech Jockey</strong> Will try to run towards unmanned mech, will become <strong class="dangerousmob">Mechanized Peacekeeper</strong> if it succeeds:
+            <p><strong class ="dangerousmob"> Mech Jockey</strong><br>
+                Will try to run towards unmanned mech, will become <strong class="dangerousmob">Mechanized Peacekeeper</strong> if it succeeds.
             </p>
         </div>
-
-        <div class="dungeon">
+        <h1>First boss</h1>
+        <div class="area">
             <h2>Mists of Tirna Scithe</h2>
             <p><strong>Ingra Maloch:</strong> DPS down the add to weaken boss.</p>
             <p><strong>Mistcaller:</strong> Avoid fox, match symbols in maze.</p>
