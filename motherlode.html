@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Motherlode!!!</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        h1 { color: #d4af37; }
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; color: black;}
+        h1 { color: #d4af37; text-decoration: underline; }
         .container { max-width: 800px; margin: auto; }
         .dungeon { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; background: #222; color: black; }
         .dangerousmob { color: #f5424b; font-weight: bold; }
         .abilitynoint { color: #e9f542; font-weight: bold; }
         .tankbuster { color: #f542bc; font-weight: bold; }
+        .caster { color: #1d2cd1; font-weight: bold; }
+        .abilitywithint { color: #1dd1d1; font-weight: bold; }
+        .abilitywithcc { color: #6e3d0a; font-weight: bold; }
+        
+        
+        
         
                       
     </style>
@@ -21,11 +27,18 @@
     <div class="container">
         <div class="dungeon">
             <h2>Notable Mobs</h2>
-            <p><strong class = "dangerousmob">Mechanized Peacekeeper:</strong> Most dangerous mob, spawns swirlies with <span class="abilitynoint">Tear Gas</span>.
-                <span class="tankbuster">Charged shield</span> is a strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
-            <p><strong>Amarth:</strong> Interrupt Final Harvest, CC adds.</p>
-            <p><strong>Surgeon Stitchflesh:</strong> Kite the hook into the boss.</p>
-            <p><strong>Nalthor the Rimebinder:</strong> Avoid frozen ground, jump platforms.</p>
+            <p><strong class = "dangerousmob">Mechanized Peacekeeper:</strong> Most dangerous mob<br>
+                <span class="abilitynoint">Tear Gas</span>: Spawns swirlies<br>
+                <span class="tankbuster">Charged shield</span>: Strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
+            <p><strong class = "caster">Refreshment vendor:</strong>Dangerous caster<br>
+                <span class="abilitywithint"> Iced spritzer</span>: Single target stun like Harvester, can be interrupted.<br></p>
+            <p><strong class = "dangerousmob">Hired Assassin:</strong> Potential wipe if not interrupted.<br>
+                <span class="abilitywithint"> Toxic Blades</span>: Buffs itself with poison damage, must be interrupted.<br>
+                <span class="abilitywithcc"> Fan of Knives</span>: Pulses aoe damage, can be ccd. <br></p>
+            <p><strong class ="dangerousmob">Addled Thug:</strong> Can cause ninja-pulls.<br>
+                <span class="abilitywithcc"> Uppercut</span>: Charges one player and knocking them back.<br>
+                
+            </p>
         </div>
 
         <div class="dungeon">
