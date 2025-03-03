@@ -3,136 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Motherlode!!!</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #121212;}
-        h1 { color: #d4af37; text-decoration: underline; font-size: 40px;}
-        h2 { color:  #d4af37; text-decoration: underline; font-size: 30px;}
-        h3 { color: #d4af37; text-decoration: underline; font-size: 50px;}
-        p { color: lightgrey;}
-        p.indented-text { padding-left: 20px; } 
-        .roundrect { border-radius: 15px; width:50px; height:50px; padding-left:25px;}
-        .container { max-width: 800px; margin: auto; border: none;}
-        .area { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; border-radius: 25px; text-align: left; line-height:25px;}
-        .dangerousmob { color: #d4af37; font-weight: bold; font-size: 20px; text-decoration: underline;}
-        .caster { color: #42cef5; font-weight: bold; font-size: 20px; text-decoration: underline; }
-        .abilitynoint { color: #9003fc; font-weight: bold;}
-        .tankbuster { color: #f542bc; font-weight: bold;}
-        .abilitywithint { color: #1dd1d1; font-weight: bold;}
-        .abilitywithcc { color: #6e3d0a; font-weight: bold; }
-        .header-background { background-image: url('motherlode.jpg'); background-size: 100% 100%; background-position: top center;background-repeat: no-repeat;height: 300px; width: 100%; min-height: 300px;}
-    </style>
+    <title>The Rookery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header-background">
-    <h3>The MOTHERLODE!!!</h3>
+    <h3>The Rookery</h3>
     </div>
         <h1> Before First Boss</h1>
         <div class="container">
             <div class="area">
                 <h2>Notable Mobs:</h2>
-                <p><strong style=' padding-left:0px;' class="dangerousmob">Mechanized Peacekeeper:</strong><br></p>
-                <p class="indented-text">Most dangerous mob<br>
-                <span class="abilitynoint">Tear Gas:</span> Spawns swirlies<br>
-                <span class="tankbuster">Charged shield:</span> Strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
+                <p><strong style=' padding-left:0px;' class="dangerousmob">Quartermaster Koratite:</strong><br></p>
+                <p class="indented-text">Dangerous miniboss<br>
+                <span class="abilitynoint">Bounding Void:</span> Cone that launches 3 damaging boomerang circles, ranged can currently stand on platform before to avoid this entirely.<br>
+                <span class="abilitynoint">Entropy Shield:</span>Creates a shield that deflects damage towards where it's facing. Go behind it to damage him.</p>
                 
-                <p><strong class="caster">Refreshment vendor:</strong><br></p>
+                <p><strong class="caster">Cursed thunderer:</strong><br></p>
                 <p class="indented-text">Dangerous caster<br>
-                <span class="abilitywithint">Iced spritzer:</span> Single target stun like Harvester, can be interrupted.<br></p>
+                <span class="abilitywithint">Lightning bolt:</span> Single target damage to random player, should be interrupted.<br></p>
                 
-                <p><strong class="dangerousmob">Hired Assassin:</strong><br></p>
-                <p class="indented-text">Potential wipe if not interrupted.<br>
-                <span class="abilitywithint">Toxic Blades:</span> Buffs itself with poison damage, must be interrupted.<br>
-                <span class="abilitywithcc">Fan of Knives:</span> Pulses AOE damage, can be CC'd. <br></p>
-                
-                <p><strong class="dangerousmob">Addled Thug:</strong><br></p>
-                <p class="indented-text">Can cause ninja-pulls.<br>
-                <span class="abilitywithcc">Uppercut:</span> Charges one player, knocking them back.<br></p>
-                
-                <p><strong class="dangerousmob">Mech Jockey:</strong><br></p>
-                <p class="indented-text">Will try to run towards unmanned mech, will become <strong class="dangerousmob">Mechanized Peacekeeper</strong> if it succeeds.</p>
+                <p><strong class="dangerousmob">Void Rider:</strong><br></p>
+                <p class="indented-text">Probably most dangerous mob here.<br>
+                <span class="abilitynoint">Wild Lightning:</span> Creates cone of swirlies to dodge.<br>
+                <span class="abilitynoint">Localized Storm:</span> Pulses heavy AOE damage. These Riders are most often paired with<strong class="caster">Cursed thunderers</strong>
+                so this damage combined with bolts can be dangerous</p>
             </div>
 
     <h1>First Boss</h1>
         <div class="area">
-            <h2>C.O.C. Pummeler<img class="roundrect" src="gmod.png"></h2>
-            <p><span class="abilitywithint">Shocking Claw:</span> Frontal with swirlies.</p>
-            <p><span class="abilitywithcc">Footbomb Launcher:</span> Spawns 6 clickable bombs that will explode, everyone needs to kick the bombs into boss before <strong class="abilitywithint">Shocking Claw:</strong></p>
-            <p><span class="abilitywithcc" style="color: #dec028;">Coin Magnet:</span> Sucks in coins that have spawned, tank boss away from coins.</p>
+            <h2>Kyrioss</h2>
+            <p><span class="abilitynoint">Crashing thunder:</span> Everyone gets damaging circle, don't overlap these.<br></p>
+            <p><span class="abilitnoint">Wild lightning:</span> Cone of swirlies to dodge.<br></p>
+            <p><span class="abilitynoint"">Lightning Torrent:</span> An intermission phase that happens at 100 energy. Boss teleports to middle of the room and gets 4 orbs around him.<br>
+                The orbs turn into rotating beams. Find a safe spot between two orbs. Slowly pulses aoe damage when the beams are rotating. During intermission everyone gets circles under them periodically.
+            </p>
         </div>
 
     <h1> Before Second Boss</h1>
         <div class="container">
             <div class="area">
                 <h2>Notable Mobs:</h2>
-                <p><strong class="dangerousmob">Azerite Extractor:</strong><br></p>
-                <p class="indented-text">Don't pull 2 of these at the same time<br>
-                <span class="tankbuster">Puncture:</span> Strong tankbuster<br>
-                <span class="abilitynoint">Rapid Extraction:</span> Pulses AOE damage and spawns swirlies.<br></p>
-        
-                <p><strong class="caster">Earthshaper:</strong><br></p>
+                <p><strong class="dangerousmob">Diffuser:</strong><br></p>
+                <p class="indented-text">Dangerous aoe damage.<br>
+                <span class="abilitynoint">Attracting Shadows:</span> Pulses aoe damage whilst trying to suck in players into death-zone around him, akin to last boss in Ara'Kara.<br>
+                <span class="abilitynoint">Arcing Void:</span>Same as the cast in Stonevault.<br>
+                </p>
+                <p><strong class="caster">Corrupted Oracle:</strong><br></p>
                 <p class="indented-text">Strong caster<br>
-                <span class="abilitywithint">Earthlance:</span> Single target nuke, must be kicked.<br></p>
-        
-                <p><strong class="caster">Stonefury:</strong><br></p>
-                <p class="indented-text">Another strong caster with a shield cast that doesn't do a lot but has,<br>
-                <span class="abilitywithint">Furious Quake:</span> Huge AOE damage nuke, needs to be kicked.<br></p>
-        
-                <p><strong class="dangerousmob">Taskmaster Askari:</strong><br></p>
-                <p class="indented-text">Very terrifying miniboss, constantly buffs mobs around him and puts <span style=' color: #990e05; font-weight: bold;'> bleed</span> on tank.<br>
-                <span class="abilitynoint">Charge:</span> Charges and nukes one player then swirlies around him</p>
+                <span class="abilitywithint">Void Bolt:</span> Single target nuke, should be kicked.<br>
+                <span class="abilitynoint"> Seeping Corruption:</span> Target someone with a DoT <span style='color: purple; font-weight: bold;'> curse </span>, this can be decursed.<br>
+                </p>
+                <p><strong class="caster">Crusher:</strong><br></p>
+                <p class="indented-text">Strong anti-tank mob. <br>
+                <span class="tankbuster">Debuff:</span>Puts a stacking debuff on tank, if tank needs to drop stacks the crushers can be cc'd.<br>
+                <span class="abilitywithcc">Void Crush:</span>Targets a player and leaps to them doing damage, don't stand near targeted player as it does aoe.<br>
+                </p>
         </div>
 
     <h1>Second Boss</h1>
     <div class="area">
-        <h2>Azerokk<img class="roundrect" src="azerite-golem.png"></h2>
-        <p>Spawns two <span class="dangerousmob">Earthragers</span> that fixate onto random players, tries to <span style=' color: #990e05; font-weight: bold;'> bleed</span> them. Kite these.</p>
-        <p><span class="abilitynoint">Azerite infusion:</span> Empowers one of the ragers, can't be CC'd now.</p>
-        <p><span class="abilitynoint">Tectonic Slam:</span> Frontal.</p>
-        <p><span class="abilitynoint">Resonant Quake:</span> AOE damage that leaves slowing zone that can be used when kiting adds.</p>
-    </div>
-    <h1>Before Third Boss</h1>
+        <h2>Stormguard Corren<img class="roundrect" src="azerite-golem.png"></h2>
+        <p>The main mechanic here is his ability <span class="abilitynoint">Chaotic Corruption:</span><br>
+            This is a hot potato 4s DoT debuff, meaning it spreads after it times out/gets dispelled. It spreads to the closest person and leaves the holder with a
+            6s vulnerability debuff. You always have to pass it to someone new.<br>
+        </p>
+        <p><span class="abilitynoint">Crush Reality:</span> Targets someone with a big circle that Corren jumps to. When he lands, cyclones will spawn from the circle. This makes positioning with the debuff complicated.<br></p>
+        <p><span class="abilitynoint">Dark Gravity:</span> Boss tries to suck in players while dealing ticking aoe damage. Both this and <span class="abilitynoint">Crush Reality:</span> leave puddles after them.<br></p>
+´    </div>
+    <h1>Before Final Boss</h1>
         <div class="area">
             <h2>Notable Mobs:</h2>
-            <p><strong class="caster">V.C. Alchemist:</strong><br></p>
-            <p class="indented-text">Caster with one dangerous cast.<br>
-            <span class="abilitywithint">Transmute: Enemy to goo:</span> Targets one player and polymorphs them if not kicked.<br></p>
-            <p><strong class="dangerousmob">Mastermind:</strong><br></p>
-            <p class="indented-text">Mob with uninterruptable single target damage and,<br>
-            <span class="abilitynoint">Brainstorm:</span> Spawns moving swirlies that silence.<br></p>
+            <p><strong class="caster">Void Ascendant:</strong><br></p>
+            <p class="indented-text">Caster with dangerous casts.<br>
+            <span class="abilitywithint">Void Bolt:</span> Targets random player with bolt, can be interrupted.<br>
+            <span class="abilitynoint">Feasting Void:</span> Does aoe damage to everyone and puts a <span style='text-color: green; font-weight:bold;'>heal absorb</span> on everyone<br>
+            <span class="abilitynoint">Umbral Wave:</span> Spawns 4 orbs around her that get sent out, she does this twice. Find a safe spot between them.<br>
+            </p>
+            <p><strong class="dangerousmob">Corrupted Voidstone:</strong><br></p>
+            <p class="indented-text">Very scary and weird dude.<br>
+            <span class="abilitynoint">Void Extraction:</span> A cast that extracts void essence from everything around him, including us and all mobs around him.<br>
+                All targets that get extracted get a damage penalty debuff and for every extracted target the Stone gets a stacking damage buff.<br>
+            <span class="abilitynoint">Unleashed Darkness:</span>At 40% the stone casts this 18 second long ability. Pulsing aoe damage and spawning swirlies.
+                This gets very fucky very fast with the damage amp/decreasing debuffs.
+            </p>
             <p><strong class="dangerousmob">Tester:</strong><br></p>
             <p class="indented-text"><span class="abilitynoint">Echo Blade:</span> Sends out projectile to all players, need to spread out so they dont echo on eachother.</p>
         </div>
-    <h1>Third Boss</h1>
+    <h1>Final Boss</h1>
     <div class="area">
-        <h2>Rixxa Fluxflame<img class="roundrect" src="rixxa.png"></h2>
+        <h2>Voidstone Monstrosity</h2>
         <p>When pulled will cover area with swirlies that create dangerous puddles</p>
         <p><span class="abilitynoint">Azerite Catalyst:</span> Targets a player that will spawn more swirlies that leave azerite, bait them around the existing puddles</p>
         <p><span class="abilitynoint">Propellent Blast:</span> Targets a player and will blow them away like with a leafblower, bait this towards puddles as this pushes puddles back too</p>
         <p>Boss will refill the room after 3<span class="abilitynoint">Propellent Blasts</span> </p>
     </div>
-    <h1>Before final boss</h1>
-        <div class="area">
-            <h2>Notable Mobs:</h2>
-            <p><strong class="dangerousmob">V.O.W Machine:</strong><br></p>
-            <p class="indented-text">Big dangerous mech<br>
-            <span class="abilitynoint">Charged shot:</span>Pulsing aoe damage channel<br>
-            <span class="abilitynoint">Deploy Crawler Mine:</span>Deploys a mine that fixates someone, if you walk into it you die. Can be cc'd so help your buddies.</p>
-        </div>
-    <h1>Final Boss</h1>
-    <div class="area">
-        <h2>Mogul Razdonk<img class="roundrect" src="mogul.png"></h2>
-        <p>Mogul will spawn 2 <strong class="dangerousmob">Boom bots:</strong> that will go to two seperate edges of the room. Depending on where they are facing (either horizontally or vertically)
-            they will draw a line of swirlies.<br> 
-            Think of them like the dragons on the first boss of Grim Batol. ALWAYS watch where they are and where the swirlies will be.
-            You can't really dodge the swirlies on reaction.</p>
-        <p><span class="abilitynoint">Homing Missile:</span> Targets one player with a homing missile with a large circle of impact area, kite this out.<br>
-        <span class="tankbuster">Gatling Gun :</span> Targets the tank with a black cone, this cone will then spin around like a gatling gun. Tank faces this away from the group.<br></p>
-        <span class="dangerousmob" style=' text-decoration: underline; '>INTERMISSION</span>
-        <p class="indented-text">During intermission the boss will spawn two snipers that constantly shoot at random players. Mark one and burst it down as this does heavy damage.<br>
-        <span class="abilitynoint">Drill smash:</span> Targets one player with an arrow, there are pillars that spawn around the room, targeted player baits it on the pillar. When he lands on a pillar
-            he does ALOT of aoe damage. After Mogul smashed 3 pillars the intermission will end.</p>
-
 
     </div>
     </div>
