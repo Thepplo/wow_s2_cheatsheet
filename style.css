@@ -1,1 +1,18 @@
 
+body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #121212;}
+h1 { color: #d4af37; text-decoration: underline; font-size: 40px;}
+h2 { color:  #d4af37; text-decoration: underline; font-size: 30px;}
+h3 { color: #d4af37; text-decoration: underline; font-size: 50px;}
+p { color: lightgrey;}
+p.indented-text { padding-left: 20px; } 
+.roundrect { border-radius: 15px; width:50px; height:50px; padding-left:25px;}
+.container { max-width: 800px; margin: auto; border: none;}
+.area { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; border-radius: 25px; text-align: left; line-height:25px;}
+.dangerousmob { color: #d4af37; font-weight: bold; font-size: 20px; text-decoration: underline;}
+.caster { color: #42cef5; font-weight: bold; font-size: 20px; text-decoration: underline; }
+.abilitynoint { color: #9003fc; font-weight: bold;}
+.tankbuster { color: #f542bc; font-weight: bold;}
+.abilitywithint { color: #1dd1d1; font-weight: bold;}
+.abilitywithcc { color: #6e3d0a; font-weight: bold; }
+.header-background { background-image: url('motherlode.jpg'); background-size: 100% 100%; background-position: top center;background-repeat: no-repeat;height: 300px; width: 100%; min-height: 300px;}
+
