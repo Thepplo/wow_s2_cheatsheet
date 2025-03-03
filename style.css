@@ -15,5 +15,5 @@ p.indented-text { padding-left: 20px; }
 .abilitywithint { color: #1dd1d1; font-weight: bold;}
 .abilitywithcc { color: #6e3d0a; font-weight: bold; }
 .header-background { background-image: url('motherlode.jpg'); background-size: 100% 100%; background-position: top center;background-repeat: no-repeat;height: 100px; width: 100%; min-height: 300px;}
-}
+.sidebar {position: fixed; left: 0; top: 0; width: 200px; height: 100%; background: #222; padding-top: 20px;}
 
