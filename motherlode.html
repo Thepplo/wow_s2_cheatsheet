@@ -10,12 +10,12 @@
         h2 { color:  #d4af37; text-decoration: underline; font-size: 30px;}
         p { color: lightgrey;}
         p.indented-text { padding-left: 20px; } 
-        .roundrect { border-radius: 15px; width:50px; height:50px;}
+        .roundrect { border-radius: 15px; width:50px; height:50px; padding-left:25px;}
         .container { max-width: 800px; margin: auto; border: none;}
         .area { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; border-radius: 25px; text-align: left; line-height:25px;}
         .dangerousmob { color: #d4af37; font-weight: bold; font-size: 15px; text-decoration: underline;}
         .caster { color: #d4af37; font-weight: bold; text-decoration: underline; font-size: 15px; }
-        .abilitynoint { color: #e9f542; font-weight: bold;}
+        .abilitynoint { color: #9003fc; font-weight: bold;}
         .tankbuster { color: #f542bc; font-weight: bold;}
         .abilitywithint { color: #1dd1d1; font-weight: bold;}
         .abilitywithcc { color: #6e3d0a; font-weight: bold; }
@@ -23,59 +23,59 @@
 </head>
 <body>
     <h1> Before First Boss</h1>
-    <div class="container">
-        <div class="area">
-            <h2>Notable Mobs:</h2>
-            <p><strong style=' padding-left:0px;' class="dangerousmob">Mechanized Peacekeeper:</strong><br></p>
-            <p class="indented-text">Most dangerous mob<br>
-            <span class="abilitynoint">Tear Gas:</span> Spawns swirlies<br>
-            <span class="tankbuster">Charged shield:</span> Strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
-            
-            <p><strong class="caster">Refreshment vendor:</strong><br></p>
-            <p class="indented-text">Dangerous caster<br>
-            <span class="abilitywithint">Iced spritzer:</span> Single target stun like Harvester, can be interrupted.<br></p>
-            
-            <p><strong class="dangerousmob">Hired Assassin:</strong><br></p>
-            <p class="indented-text">Potential wipe if not interrupted.<br>
-            <span class="abilitywithint">Toxic Blades:</span> Buffs itself with poison damage, must be interrupted.<br>
-            <span class="abilitywithcc">Fan of Knives:</span> Pulses AOE damage, can be CC'd. <br></p>
-            
-            <p><strong class="dangerousmob">Addled Thug:</strong><br></p>
-            <p class="indented-text">Can cause ninja-pulls.<br>
-            <span class="abilitywithcc">Uppercut:</span> Charges one player, knocking them back.</p><br>
-            
-            <p><strong class="dangerousmob">Mech Jockey:</strong><br></p>
-            <p class="indented-text">Will try to run towards unmanned mech, will become <strong class="dangerousmob">Mechanized Peacekeeper</strong> if it succeeds.</p>
-        </div>
+        <div class="container">
+            <div class="area">
+                <h2>Notable Mobs:</h2>
+                <p><strong style=' padding-left:0px;' class="dangerousmob">Mechanized Peacekeeper:</strong><br></p>
+                <p class="indented-text">Most dangerous mob<br>
+                <span class="abilitynoint">Tear Gas:</span> Spawns swirlies<br>
+                <span class="tankbuster">Charged shield:</span> Strong tankbuster that cleaves damage on rest of the party depending on damage taken by tank</p>
+                
+                <p><strong class="caster">Refreshment vendor:</strong><br></p>
+                <p class="indented-text">Dangerous caster<br>
+                <span class="abilitywithint">Iced spritzer:</span> Single target stun like Harvester, can be interrupted.<br></p>
+                
+                <p><strong class="dangerousmob">Hired Assassin:</strong><br></p>
+                <p class="indented-text">Potential wipe if not interrupted.<br>
+                <span class="abilitywithint">Toxic Blades:</span> Buffs itself with poison damage, must be interrupted.<br>
+                <span class="abilitywithcc">Fan of Knives:</span> Pulses AOE damage, can be CC'd. <br></p>
+                
+                <p><strong class="dangerousmob">Addled Thug:</strong><br></p>
+                <p class="indented-text">Can cause ninja-pulls.<br>
+                <span class="abilitywithcc">Uppercut:</span> Charges one player, knocking them back.<br></p>
+                
+                <p><strong class="dangerousmob">Mech Jockey:</strong><br></p>
+                <p class="indented-text">Will try to run towards unmanned mech, will become <strong class="dangerousmob">Mechanized Peacekeeper</strong> if it succeeds.</p>
+            </div>
 
     <h1>First Boss</h1>
-    <div class="area">
-        <h2>C.O.C. Pummeler<img class="roundrect" src="gmod.png"></h2>
-        <p><span class="abilitywithint">Shocking Claw:</span> Frontal with swirlies.</p>
-        <p><span class="abilitywithcc">Footbomb Launcher:</span> Spawns 6 clickable bombs that will explode, everyone needs to kick the bombs into boss before <strong class="abilitywithcc">Shocking Claw:</strong></p>
-        <p><span class="abilitywithcc" style="color: #dec028;">Coin Magnet:</span> Sucks in coins that have spawned, tank boss away from coins.</p>
-    </div>
+        <div class="area">
+            <h2>C.O.C. Pummeler<img class="roundrect" src="gmod.png"></h2>
+            <p><span class="abilitywithint">Shocking Claw:</span> Frontal with swirlies.</p>
+            <p><span class="abilitywithcc">Footbomb Launcher:</span> Spawns 6 clickable bombs that will explode, everyone needs to kick the bombs into boss before <strong class="abilitywithint">Shocking Claw:</strong></p>
+            <p><span class="abilitywithcc" style="color: #dec028;">Coin Magnet:</span> Sucks in coins that have spawned, tank boss away from coins.</p>
+        </div>
 
     <h1> Before Second Boss</h1>
-    <div class="container">
-        <div class="area">
-            <h2>Notable Mobs:</h2>
-            <p><strong class="dangerousmob">Azerite Extractor:</strong><br></p>
-            <p class="indented-text">Don't pull 2 of these at the same time<br>
-            <span class="tankbuster">Puncture:</span> Strong tankbuster<br>
-            <span class="abilitynoint">Rapid Extraction:</span> Pulses AOE damage and spawns swirlies.<br></p>
-
-            <p><strong class="dangerousmob">Earthshaper:</strong><br></p>
-            <p class="indented-text">Strong caster<br>
-            <span class="abilitywithint">Earthlance:</span> Single target nuke, must be kicked.<br></p>
-
-            <p><strong class="dangerousmob">Stonefury:</strong><br></p>
-            <p class="indented-text">Another strong caster with a shield cast that doesn't do a lot but has,<br>
-            <span class="abilitywithint">Furious Quake:</span> Huge AOE damage nuke, needs to be kicked.<br></p>
-
-            <p><strong class="dangerousmob">Taskmaster Askari:</strong><br></p>
-            <p class="indented-text">Very terrifying miniboss, constantly buffs mobs around him and puts <span style=' color: #990e05; font-weight: bold;'> bleed</span> on tank.<br>
-            <span class="abilitynoint">Charge:</span> Charges and nukes one player then swirlies around him</p>
+        <div class="container">
+            <div class="area">
+                <h2>Notable Mobs:</h2>
+                <p><strong class="dangerousmob">Azerite Extractor:</strong><br></p>
+                <p class="indented-text">Don't pull 2 of these at the same time<br>
+                <span class="tankbuster">Puncture:</span> Strong tankbuster<br>
+                <span class="abilitynoint">Rapid Extraction:</span> Pulses AOE damage and spawns swirlies.<br></p>
+        
+                <p><strong class="dangerousmob">Earthshaper:</strong><br></p>
+                <p class="indented-text">Strong caster<br>
+                <span class="abilitywithint">Earthlance:</span> Single target nuke, must be kicked.<br></p>
+        
+                <p><strong class="dangerousmob">Stonefury:</strong><br></p>
+                <p class="indented-text">Another strong caster with a shield cast that doesn't do a lot but has,<br>
+                <span class="abilitywithint">Furious Quake:</span> Huge AOE damage nuke, needs to be kicked.<br></p>
+        
+                <p><strong class="dangerousmob">Taskmaster Askari:</strong><br></p>
+                <p class="indented-text">Very terrifying miniboss, constantly buffs mobs around him and puts <span style=' color: #990e05; font-weight: bold;'> bleed</span> on tank.<br>
+                <span class="abilitynoint">Charge:</span> Charges and nukes one player then swirlies around him</p>
         </div>
 
     <h1>Second Boss</h1>
@@ -83,5 +83,28 @@
         <h2>Azerokk<img class="roundrect" src="azerite-golem.png"></h2>
         <p>Spawns two <span class="dangerousmob">Earthragers</span> that fixate onto random players, tries to <span style=' color: #990e05; font-weight: bold;'> bleed</span> them. Kite these.</p>
         <p><span class="abilitynoint">Azerite infusion:</span> Empowers one of the ragers, can't be CC'd now.</p>
-        <p><span class="abilitynocc">Tectonic Slam:</span> Frontal.</p>
-        <p><span class="abilitynocc">Resonant Quake:</span> AOE damage that l
+        <p><span class="abilitynoint">Tectonic Slam:</span> Frontal.</p>
+        <p><span class="abilitynoint">Resonant Quake:</span> AOE damage that leaves slowing zone that can be used when kiting adds.</p>
+    </div>
+    <h1>Before Third Boss</h1>
+        <div class="area">
+            <h2>Notable Mobs:</h2>
+            <p><strong class="dangerousmob">V.C. Alchemist:</strong><br></p>
+            <p class="indented-text">Caster with one dangerous cast.<br>
+            <span class="abilitywithint">Transmute: Enemy to goo:</span> Targets one player and polymorphs them if not kicked.<br></p>
+            <p><strong class="dangerousmob">Mastermind:</strong><br></p>
+            <p class="indented-text">Caster with uninterruptable single target damage and,<br>
+            <span class="abilitynoint">Brainstorm:</span> Spawns moving swirlies that silence.<br></p>
+            <p><strong class="dangerousmob">Tester:</strong><br></p>
+            <p class="indented-text"><span class="abilitynoint">Echo Blade:</span> Sends out projectile to all players, need to spread out so they dont echo on eachother.</p>
+        </div>
+    <h1>Third Boss</h1>
+    <div class="area">
+        <h2>Rixxa Fluxflame<img class="roundrect" src="azerite-golem.png"></h2>
+        <p>When pulled will cover area with swirlies that create dangerous puddles</p>
+        <p><span class="abilitynoint">Azerite Catalyst:</span> Targets a player that will spawn more swirlies that leave azerite, bait them around the existing puddles</p>
+        <p><span class="abilitynoint">Propellent Blast:</span> Targets a player and will blow them away like with a leafblower, bait this towards puddles as this pushes puddles back too</p>
+        <p>Boss will refill the room after 3<span class="abilitynoint">Propellent Blasts</span> </p>
+        
+    </div>
+        
