@@ -13,9 +13,12 @@
         <a href="#section2">Big M.O.M.M.A-</a>
         <a href="#section3">Before Second Boss</a>
         <a href="#section4">Demolition Duo</a>
-        <a href="#section5">Swampface</a>
-        <a href="#section6">Before Final Boss</a>
-        <a href="#section7">Geezle Gigazap</a>
+        <a href="#section5">Before Third Boss</a>
+        <a href="#section6">Swampface</a>
+        <a href="#section7">Before Final Boss</a>
+        <a href="#section8">Geezle Gigazap</a>
+
+
     </div>
     <div class="header-background">
     <h3>Cinderbrew Meadery</h3>
@@ -24,156 +27,195 @@
         <div class="container">
             <div class="area">
                 <h2>Notable Mobs:</h2>
-                <p><strong class="dangerousmob">Hired Muscle:</strong><br></p>
-                <p class="indented-text">Big dude with alot of AoE damage.<br>
-                <span class="abilitynoint">Volatile Keg:</span> Big unavoidable AoE on entire party that leaves a DoT.</span><br>
-                <span class="abilitynoint">Throw Chair:</span> Targets random player with a single-target nuke.
+                <p><strong class="dangerousmob">Bloodwarper:</strong><br></p>
+                <p class="indented-text">
+                    Very dangerous.<br>
+                    <span class="abilitynoint">Warp Blood:</span> Big pulsing AoE on entire party that leaves a <span style='font-weight:bold; color:green;'>heal absorb</span>.<br>
+                    <span class="abilitywithint">Blood Bolt:</span> Targets random player with a single-target bolt, kickable.
                 </p>
                 
-                <p><strong class="caster">V.C. Pyromaniac:</strong><br></p>
-                <p class="indented-text">Dangerous caster with more DoTs.<br>
-                <span class="abilitynoint">Erupting Inferno:</span> Puts a circle on a random player that pulses damage, don't stand near these players.<br>
-                <span class="abilitywithint">Boiling Flames:</span> Targets random player and channels ST-damage on them, try to interrupt/cc this.
-                </p>
-                            
-                <p><strong class="dangerousmob">V.C. Patron:</strong><br></p>
-                <p class="indented-text">Stacking tank-damage.<br>
-                <span class="tankbuster">Mean Mug:</span> Builds a stacking <span style='font-weight:bold; color:red;'>bleed</span> on tank.<br>
-                </p>
-
-
-                <p><strong class="miniboss">Chef Chewie:</strong><br></p>
-                <p class="indented-text">Miniboss before first boss. Scary if pulled with other mobs.<br>
-                <span class="abilitynoint">Tenderize:</span> Big unavoidable AoE on entire party that knocks back. Watch out for ninja pulling on the knockback.</span><br>
-                <span class="abilitynoint">High Steaks:</span> Fills ground with swirlies, dodge these.<br>
-                </p>
-              
+                <p><strong class="dangerousmob">Darkfuse Hyena:</strong><br></p>
+                <p class="indented-text">
+                    Casts a buff on themselves, usually found in large packs.<br>
+                    <span class="abilitywithint">Bloodthirsty Cackle:</span> Puts a buff on all hyenas boosting their damage and
+                    giving them <span style='font-weight:bold; color:green;'>leech</span>, can be kicked.
+                </p>                   
             </div>
 
     <h1 id="section2">Big M.O.M.M.A</h1>
         <div class="area">
             <h2>Big M.O.M.M.A<img class="roundrect" src="gmod.png"></h2>
-          <p> This Arena is placed in a bar, there are alot of tables around that will be important during the intermission.<br>
-            <span class="tankbuster">Keg Smash:</span> Heavy tank-buster that knocks you back and leaves puddles on the ground.<br>
-            <span class="abilitynoint">Throw Cinderbrews:</span> Throws cinderbrew at 2 random players infecting them with a heavy DoT-effect.<br>
-            <span class="abilitynoint">Blazing Belch:</span> Cone frontal.<br>
-            <span class="dangerousmob" style=' text-decoration: underline; '>INTERMISSION 66%/33%:</span>
-            At <span style='font-weight:bold;'>66% and 33%</span> the boss will enter an intermission. The boss is invulnerable and stands behind the bar, occasionally spawning
-            <span style='font-weight:bold; color:pink;'>mugs of beer</span> that can be picked up.<br>
-            These beers need to be delivered to <span style='font-weight:bold; color:red;'>patrons</span> that are sitting by the tables at the left and right sides of the arena. They glow red.<br>
-            <span class="abilitynoint">Happy Hour:</span> During this intermission pulsing AoE-damage goes out onto the party.<br>
-            When all the beers have been delivered the boss ends the intermission and repeats the first phase with new moving swirlies.<br>
+          <p> This Boss spawns with 4 caster adds,<br></p>
+             <p><strong class="caster">Darkfuse Mechadrone:</strong><br></p>
+                <p class="indented-text">These should be focused down, will discuss why.<br>
+                    <span class="abilitywithint">Maximum Distortion:</span> If this goes through it will do an AoE damage burst with a knockback. Always kick this.<br>
+                    <span class="abilitynoint">Shoot:</span> Will constantly shoot random players for ST-damage.<br>
+                    <span class="abilitynoint">Doom Storm:</span> Draws a line of swirlies towards a player, the bot then charges in that direction.<br>
+                        To avoid too much spreading on the bots try to bait this into a wall if possible.<br>
+                </p>
+         <p>Now we will go over the boss-mechanics.</p>
+            <p><span class="tankbuster">Electro Crush:</span> Heavy tank-buster.<br>
+                <span class="abilitynoint">Sonic Boom:</span> Targets a random player and sends out a large damaging orb towards them after a delay, try to aim this away from the rest of the pary.<br>
+                <span class="abilitynoint">Kill-o-Block Barrier:</span>The boss becomes <strong>immune</strong> to all damage until the <strong class="caster">Darkfuse Mechadrone</strong> are killed.<br>
+                <span class="dangerousmob" style=' text-decoration: underline; '>INTERMISSION:</span>
+                When all <strong class="caster">Darkfuse Mechadrone</strong> are dead, the boss goes into a short intermission.<br>
+                <span class="abilitynoint">Jumpstart:</span> Pulses heavy AoE damage to the party for 12s, <strong>and takes 2x damage</strong>.<br>
+                When  <span class="abilitynoint">Jumpstart:</span> finishes casting the boss will resummon  <strong class="caster">Darkfuse Mechadrones</strong>,
+                    place a growing lightning field under itself and restart at P1.<br>
             </p>
         </div>
 
-    <h1 id="section3"> Before Berik Buzzbee</h1>
+    <h1 id="section3"> Before Second Boss</h1>
         <div class="area">
+            <p>To open the room with the Second Boss, you will need to collect <strong>5 Weapons Stockpiles</strong> that are scattered around the dungeon.</p>
             <h2>Notable Mobs:</h2>
-            <p><strong class="dangerousmob">V.C. Honey Harvester:</strong><br></p>
-            <p class="indented-text">AoE damage mob with stacking debuff.<br>
-            <span class="abilitynoint">Swarming Surprise:</span> Big AoE damage burst to everyone, puts a stacking vulnerability debuff that makes you take more damage from this ability in the future.<br>
-            <span class="abilitynoint">Surging Flame:</span> Spawns a circle around him that explodes and leaves a big flame patch on the ground. Dodge this.<br>
+            <p><strong class="dangerousmob">Darkfuse Inspector:</strong><br></p>
+            <p class="indented-text">
+            <span class="abilitynoint">Surprise Inspection:</span> Blinks behind a random player and does a frontal cone towards them, this frontal can be cc'd.<br>
             </p>
     
-            <p><strong class="dangerousmob">Worker Bee:</strong><br></p>
-            <p class="indented-text"><span class="abilitynoint">Shredding Sting:</span> Targets random player, charges them and applies a <span style='font-weight:bold; color:red;'>bleed</span>.<br>
-            <span class="tankbuster">Final Sting:</span> Tankbuster that it does when it's low on hp.<br>
+            <p><strong class="caster">Sniper:</strong><br></p>
+            <p class="indented-text">
+                <span class="abilitynoint">Snipe:</span> Targets random player, shoots them. They spam this.<br>
+                <span class="abilitywithint">Trickshot:</span> Heavy single target damage, will bounce to nearby players. This should be kicked.<br>
             </p>
-            <p><strong class="dangerousmob">Bee-let:</strong><br></p>
-            <p class="indented-text"> Small bees with scary amounts of tank-damage.<br>
-            <span class="abilitynoint">Bee venom:</span> Builds a stacking dispellable <span style='font-weight:bold; color:green;'>magic debuff</span> on the tank that can quickly ramp up in damage.<br>
+            <p><strong class="caster">V.C. Surveyor:</strong><br></p>
+            <p class="indented-text">
+                <span class="abilitynoint">Throw Dynamite:</span> Targets random player, ST damage.<br>
+                <span class="abilitywithint">Surveying Beam:</span> Heavy single target damage. This should be kicked.<br>
             </p>
-          
-            <p><strong class="dangerousmob">Bee Wrangler:</strong><br></p>
-            <p class="indented-text">Ranged mob that spam shoots random players.<br>
-            <span class="abilitynoint">Bee-Zooka:</span> Targets random player with line frontal, rest of the party should dodge.<br>
-            <span class="abilitywithint">Beestial Wrath:</span> A cast that MUST be kicked. If it goes through the caster will get a damage amp.<br>
+            <p><strong class="caster">V.C. Architect:</strong><br></p>
+            <p class="indented-text">
+                Some <strong class="caster">V.C. Architects</strong> stand on <strong>Scaffolding</strong> which can be dps'd down to knock them down to the ground.<br>
+                <span class="abilitynoint">Rapid Construction:</span> If their scaffolding is destroyed they can cast this to quickly build a new one to stand on.<br>
+                <span class="abilitynoint">Nailgun:</span> Targets random player, shoots them and leaves a <span style='font-weight:bold; color:red;'>bleed</span>.<br>
             </p>
-          
-            <p><strong class="caster">Royal Jelly Purveyor:</strong><br></p>
-            <p class="indented-text">Dangerous caster.<br>
-            <span class="abilitynoint">Rain of Honey:</span> Spawns alot of swirlies to be dodged.<br>
-            <span class="abilitywithint">Honey Volley:</span> A cast that MUST be kicked. If it goes through it will result in massive AoE damage to everyone.<br></p>
+            <p><strong class="dangerousmob">Shreddinator 3000:</strong><br></p>
+            <p class="indented-text">
+                Very dangerous mob if it's mechanics are not handled properly.
+                <span class="abilitynoint">Shreddation:</span> Starts a 2.5s cast, at the end of the cast a spinning sawblade that does damage will spawn under all 5 players that need to be side-stepped.<br>
+                You can pre-move when the cast is finishing to avoid damage.<br>
+                <span class="abilitynoint">Flamethrower:</span> A rotating frontal that starts based on where the mob is facing.<br>
+            </p>
+
+
+
+            
+            <p><strong class="caster">V.C. Diver:</strong><br></p>
+                <p class="indented-text">
+                    Pretty tame mob with some slightly dangerous casts.<br>
+                    <span class="abilitywithint">Harpoon:</span> Basically a bolt with moderate ST damage, kickable.<br>
+                    <span class="abilitynoint">Plant Seaforium Charge:</span> Places a mine on the floor which will deal damage and launch you into the air if stepped on.<br>
+                </p>
+
         </div>
 
-    <h1 id="section4">Berik Buzzbee</h1>
+    <h1 id="section4">Demolition Duo</h1>
     <div class="area">
         <h2>Demolition Duo<img class="roundrect" src="azerite-golem.png"></h2>
-        <p>A potentially very chaotic fight that revolves around the <span style='font-weight:bold; color:red;'>adds</span> the boss spawns so let's talk about those first.
-        <p><span class="abilitynoint">Snack Time:</span> The boss spawns <span style='font-weight:bold; color:pink;'>Barrels</span> around the arena.<br>
-          These <span style='font-weight:bold; color:pink;'>Barrels</span> will continously spawn adds as long as they are up.
-          The adds are called <span style='font-weight:bold; color:red;'>Raging Buzzbees</span>. These adds will jump around and place DoTs on the party.<br>
-          When killed these <span style='font-weight:bold; color:red;'>Raging Buzzbees</span> will become <span style='font-weight:bold;'>Interactible</span>.
-          If you click on them you will <span style='font-weight:bold;'>Ride</span> the bee, allowing you to use their ability to dash through <span style='font-weight:bold; color:pink;'>Barrels</span>, destroying them.<br>
-          That is the main gimmick of this fight.<br>
-        <span class="abilitynoint">Honey Marinade:</span> Puts a circle around the tank that will after a delay, do damage and drop a flame patch on the ground.<br>
-          Try to position this around the edges of the arena.<br>
-        <span class="abilitynoint">Fluttering Wing:</span> A channel of unavoidable AoE damage that pushes everyone away slightly from the boss.<br>
-          This becomes dangerous with the DoTs from the <span style='font-weight:bold; color:red;'>Raging Buzzbees</span>. <br>
+        <p>A potentially very chaotic fight that revolves around dealing with the 6 <span style='font-weight:bold; color:pink;'>Bombs</span> the bosses spawn periodically.<br>
+            Think of them like the bombs in the First Boss of Siege of Boralus,
+            they will explode for massive AoE if they time out.<br>
+            These are dealt with through the other mechanics of the boss.<br>
+            A quick note is that this boss consists of 2 dudes, <span style='font-weight:bold; color:orange;'>Quickfuse</span> and <span style='font-weight:bold; color:red;'> Bront</span>.<br>
+            They don't share a healthpool and if one dies before the other, the survivor will get a ramping damage buff. So try to kill them evenly, but it isn't as punishing as third boss of SV for example.<br>
+        </p>
+        <p><span style='font-weight:bold; text-decoration:underline; color:gold;'> Bomb stuff</span></p>
+            <p class=indented-text> 
+            <span class="abilitynoint">Big Bada Boom:</span> The boss spawns 6 <span style='font-weight:bold; color:pink;'>Bombs</span> around the arena.<br>
+            <span class="abilitynoint">Kinetic Explosive Gel:</span> <span style='font-weight:bold; color:orange;'>Quickfuse</span> applies a
+            dispellable <span style='font-weight:bold; color:green;'>magic debuff</span> on someone.<br>
+            The person with the debuff has an impact circle around them,
+            if a <span style='font-weight:bold; color:pink;'>bomb</span> is inside the radius when the debuff is <span style='font-weight:bold; color:green;'>dispelled</span>,
+            the bomb will disappear.<br>
+            This one of the main mechanics used for removing <span style='font-weight:bold; color:pink;'>bombs</span> so if you have the debuff stand next to a bomb and call for a dispel.<br>
+            <span class="abilitynoint">Barreling Charge:</span><span style='font-weight:bold; color:red;'> Bront</span> targets a random <strong>(non-tank)</strong> and draws an arrow towards them.<br>
+            After a delay he will charge in that direction, disabling any <span style='font-weight:bold; color:pink;'>Bombs</span> he runs through.<br>
+            <span style='font-weight:bold; color:red;'> Bront</span> will recast this twice, first on another random target, and finally again <strong>always on the tank</strong>.<br>
+            Before this ability goes out <span style='font-weight:bold; color:red;'> Bront</span> should be tanked in a spot where
+            it makes it easy for the person with the charge to aim it into <span style='font-weight:bold; color:pink;'>bombs</span>.<br>
+            Per <span style='font-weight:bold; color:pink;'>bomb</span> wave we have 2 casts of <span class="abilitynoint">Kinetic Explosive Gel</span>
+            and 1 cast of  <span class="abilitynoint">Barreling Charge</span> to get rid of them.<br>
+           </p>
+        <p>
+            <span class="tankbuster">Wallop:</span> Does what it says on the can.<br>
+            <span class="abilitynoint">Shoot:</span><span style='font-weight:bold; color:orange;'>Quickfuse</span> shoots random player.<br>
+            <span class="abilitynoint">B.B.B.F.C:</span><span style='font-weight:bold; color:orange;'>Quickfuse</span> does multiple frontal lines in a fan.<br>
         </p>
     </div>
-    <h1 id="section5">Before I'pa</h1>
+    <h1 id="section5">Before Third Boss</h1>
         <div class="area">
             <h2>Notable Mobs:</h2>
-            <p><strong class="caster">Flavor Scientist:</strong><br></p>
-            <p class="indented-text">Caster that spawns an explosive add.<br>
-            <span class="abilitynoint">Failed Bath:</span> Spawns a targetable barrel add that will explode unless killed.<br>
-            <span class=abilitywithint">Rejuvenating Honey:</span> Heal on another mob, kickable.
-            </p>
-            <p><strong class="dangerousmob">Careless Hopgoblin:</strong><br></p>
-            <p class="indented-text">Mob that spawns add with a scary frontal charge with AoE damage.<br>
-            <span class="abilitynoint">Reckless Delivery:</span> Targets a random player, charging toward them after a brief delay. When he hits a wall there's a hit of AoE damage to everyone.<br>
-              He also spawns 2 adds.<br>
-            </p>
-           
-        </div>
-    <h1 id="section6">I'pa</h1>
-    <div class="area">
-        <h2>I'pa<img class="roundrect" src="rixxa.png"></h2>
-        <p>This is a very tank/cc heavy boss, all about managing the adds the boss spawns which will need to be kited.<br>
-        <span class="abilitynoint">Spouting Stout:</span> Boss will spawn alot of swirlies, of which there are 2 kinds.<br>
-          <span style='color:yellow; font-weight: bold;'>Yellow swirlies:</span> which are normal swirlies.<br>
-          And <span style='color:red; font-weight: bold;'>Red swirlies:</span> which will spawn adds.<br>
-          These <span style='color:red; font-weight: bold;'>Brew Drops</span> will run towards the boss. If they reach the boss, it will give the boss a 10% shield and he will do heavy AoE damage.<br>
-          The <span style='color:red; font-weight: bold;'>Brew Drops</span> can be cc'd (roots,stuns,vortex,etc.) but it is recommended to kite these.<br>
-          If they stay alive long they will become <span style='font-weight: bold;'>faster</span>.<br>
-          On death the <span style='color:red; font-weight: bold;'>Brew Drops</span> will leave a puddle on the ground and slowly <span style='font-weight: bold;'>regenerate</span> to spawn again.<br>
+            <p>Just large groups of one add.</p>
+            <p><strong class="caster">Disturbed Kelp:</strong><br></p>
+            <p class="indented-text">
+                Caster that can heal itself if not kicked.<br>
+                <span class=abilitywithint">Restorative Algae:</span> Heals itself.<br>
+                <span class=abilitynoint">Jettison Kelp:</span> Whirlwinds, dealing damage to everything near it.<br>
 
-         <span class="tankbuster">Bottoms Uppercut:</span> Heavy tank-buster that also knocks back.<br>
-         <span class="abilitynoint">Burning Fermentation:</span> Applies a dispellable DoT <span style='font-weight:bold; color:green;'>magic debuff</span>.<br>
+            </p>
+        </div>
+    <h1 id="section6">Swampface</h1>
+    <div class="area">
+        <h2>Swampface<img class="roundrect" src="rixxa.png"></h2>
+        <p>This boss seems simple on paper but is made hard by his  <span style='color:green; font-weight: bold;'>tether</span> mechanic.<br>
+            On pull the boss will tether 2 dps players, and 1 dps + the healer together. Dealing constant rot damage whilst the <span style='color:green; font-weight: bold;'>tethers</span> are up.<br>
+            Also if the two <span style='color:green; font-weight: bold;'>tethered</span> people move too far away from eachother, they will be snapped back together.<br>
+            This becomes very troublesome with the rest of the boss' mechanics.<br>
+            <span class="tankbuster">Sludge Claws:</span> Heavy tankbuster.<br>
+            <span class="abilitynoint">Mudslide:</span> Wide line frontal.<br>
+            When this frontal comes out the group should have already decided which <strong>direction</strong> they should all dodge it in.
+            Otherwise the <span style='color:green; font-weight: bold;'>tethers</span> will snap you back into it.<br>
+            
+            <span class="abilitynoint">Awaking the Swamp:</span> Spawns large swirlies around the room that later explode, unleashing waves from the original swirlie.<br>
+            When he explodes the swirlies he will also do large pulsing AoE damage to the entire group.<br>
+            Again when these waves come out, everyone should be agreed in which direction to dodge to avoid snapping the <span style='color:green; font-weight: bold;'>tethers</span>.<br>
+            <span class="abilitynoint">Razorchoke vines:</span> Reapplies the tethers and then repeats previous mechanics.<br>
         </p>
     </div>
           
     <h1 id="section7">Before final boss</h1>
         <div class="area">
             <h2>Notable Mobs:</h2>
-            <p><strong class="miniboss">Yes Men:</strong><br></p>
-             <p class="indented-text">These mobs are in a group of 4. On death all other Yes Men will full-heal and transform so you don't want to AoE these guys.<br>
-               <span class="abilitynoint">Downward Trend:</span> Spawns swirlie that it will charge to, dodge this.<br>
+            <p><strong class="dangerousmob">Bombshell Crab:</strong><br></p>
+             <p class="indented-text">These mobs don't do much alive, but when they die they apply a stacking bursting effect of DoT damage that refreshes it's duration with every application.<br>
+            </p>
+            <p><strong class="miniboss">Bubbles:</strong><br></p>
+             <p class="indented-text">Fish miniboss, very cute.<br>
+                 <span class="abilitynoint">Bubble burp:</span>Dodge swirlies and eventual bubbles.<br>
+                 <span class="abilitynoint">Splish Splash:</span>Dodge frontal.<br>
+                 <span class="abilitynoint">Backwash:</span> Pulsing AoE damage on party, leaves a ticking DoT.<br>
+            </p>
+            <p><strong class="caster">V.C. Electrician:</strong><br></p>
+            <p class="indented-text">
+                <span class="abilitywithint">Lightning Bolt:</span> Heavy single target damage. This should be kicked.<br>
+            </p>
+            <p><strong class="dangerousmob">Darkfuse Jumpstarter:</strong><br></p>
+            <p class="indented-text">
+                Big scary mob.
+                <span class="abilitynoint">Battery Discharge:</span> Constantly pulses heavy AoE damage on party. Also shoots out swirlies to be dodged periodically.<br>
+                <span class="tankbuster">Sparkslam:</span> Heavy Tankbuster.<br>
             </p>
         </div>
-    <h1 id="section8">Coldie Baronbottom</h1>
+    <h1 id="section8">Geezle Gigazap</h1>
     <div class="area">
-        <h2>Coldie Baronbottom<img class="roundrect" src="gmod.png"></h2>
-        <p>This can, again, become a very chaotic fight. It's all about managing the <span style='color:red; font-weight: bold;'>Big Barrels:</span> she spawns.<br>
-
-        <span class="abilitynoint">Spread the Love!:</span> The boss spawns barrels around the room, of which there are 2 kinds,<br>
-        <span style='color:red; font-weight: bold;'>4 Big Barrels</span> and alot of<span style='color:yellow; font-weight: yellow;'>Small barrels</span>.<br>
-      Both barrels, when destroyed, will spawn multiple lava waves from it that need to be dodged, but when a <span style='color:red; font-weight: bold;'>Big Barrel</span> is destroyed it will apply
-      a party wide <span style='font-weight: bold;'>STACKING</span> DoT that refreshes on multiple applications. Akin to <span style='color:purple; font-weight: bold;'>Skarmorak Shards</span> from SV.<br>
-      These barrels will have to be destroyed by players with 2 different mechanics from the boss before she explodes all of them at the same time causing a wipe.<br>
-        <span class="tankbuster">Cash Cannon:</span> Targets the <span style='color:pink; font-weight: bold;'>tank</span> with an wide frontal.<br>
-      Aim this towards <span style='color:red; font-weight: bold;'>Barrels:</span> to destroy them.<br>
-       <span class="abilitynoint">Burning Ricochet:</span> Targets 2 random party members with a damaging circle which will explode after a brief delay,
-      any <span style='color:red; font-weight: bold;'>Barrels:</span> caught inside will ignite and explode.<br>
-       <span class="abilitynoint">Let it Hail:</span> The boss channels HEAVY pusling AoE damage on everyone, whilst exploding any existing <span style='color:red; font-weight: bold;'>Barrels:</span>.<br>
-
-      So as you can see this boss becomes hectic without a clear strategy on how to explode the barrels before <span class="abilitynoint">Let it Hail:</span>, and timing it correctly so that the DoT effect from the
-      <span style='color:red; font-weight: bold;'>Big Barrels:</span> doesn't refresh/kill anyone.<br>
-      What appears to be the leading strategy is to explode them in a <span style='font-weight: bold;'>1-1-1-1</span> fashion, as you get 2 <span class="tankbuster">Cash Cannons</span>
-      and 2  <span class="abilitynoint">Burning Ricochets</span> per wave of barrels.
+        <h2>Geezle Gigazap<img class="roundrect" src="gmod.png"></h2>
+        <p>This fight is all about managing your <span style='color:light-blue; font-weight: bold;'>Pools of Water</span> that periodically spawn throughout the fight.<br>
+            These <span style='color:light-blue; font-weight: bold;'>Pools of Water</span> can nullify certain mechanics of the boss, but when used can't be used again.<br>
+            
+        <span class="abilitynoint">Turbocharge:</span> The boss spawns line frontals around him to be dodged for 8s and deals heavy pulsing AoE damage to the party.<br>
+        <span class="tankbuster">Thunder Punch:</span> A tank buster that also makes the tank <span style='color:blue; font-weight: bold;'>Electrified.</span><br>
+            <span style='color:blue; font-weight: bold;'>Electrified</span> players have a heavy DoT,
+            this can be dispelled by walking into a <span style='color:light-blue; font-weight: bold;'>Pool of Water</span> but this will render the pool unusable.<br>
+       <span class="abilitynoint">Giga Zap:</span> Targets a random player with a damaging circle
+            which will deal heavy damage to everything around them and <span style='color:blue; font-weight: bold;'>Electrify</span> both the targeted player and anyone in the circle.<br>
+            This can be dispelled in the same way as discussed before.<br>
+       <span class="abilitynoint">Leaping Sparks:</span> The boss spawns an electrical spark for each player, which spark is yours is indicated, this spark will chase you and stun you if it connects.<br>
+            However to nullify this you <strong>kite</strong> this spark into a <span style='color:light-blue; font-weight: bold;'>Pool of Water</span> which will make it disappear.<br>
+            This renders the pool unusable in the future however and anyone coming into contact with an <span style='color:blue; font-weight: bold;'>electrified pool</span> will be stunned and take damage.<br>
+            <strong>Important note:</strong> If you are standing in the <span style='color:light-blue; font-weight: bold;'>Pools of Water</span>
+            as you kite a spark into it, you will be stunned, so try to position yourself behind the pool instead.<br>
         </p>
-
 
     </div>
 </div>
