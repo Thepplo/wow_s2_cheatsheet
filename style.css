@@ -7,7 +7,7 @@ p { color: lightgrey; padding-left: 20px;}
 p.indented-text { padding-left: 45px; line-height:1.5;} 
 .roundrect { border-radius: 15px; width:50px; height:50px; padding-left:25px;}
 .container { max-width: 800px; margin: auto; border: none;}
-.area { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; border-radius: 25px; text-align: left; line-height:25px; max-width:500px;}
+.area { margin-bottom: 20px; padding: 10px; border: none; background: #222; color: black; border-radius: 25px; text-align: left; line-height:25px;}
 .dangerousmob { color: #d4af37; font-weight: bold; font-size: 20px; text-decoration: underline;}
 .miniboss {color: purple; font-weight: bold; font-size: 20px; text-decoration: underline;}
 .caster { color: #42cef5; font-weight: bold; font-size: 20px; text-decoration: underline; }
