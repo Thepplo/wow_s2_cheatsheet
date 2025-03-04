@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="sidebar">
+    <a href="index.html" style='color:#42cef5; font-size: 35px;'>Home</a>
+    <a href="#section1">Before First Boss</a>
+    <a href="#section2">Kyrioss</a>
+    <a href="#section3">Before Second Boss</a>
+    <a href="#section4">Stormguard Korren</a>
+    <a href="#section5">Before Final Boss</a>
+    <a href="#section6">Voidstone Monstrosity</a>
+    </div>
     <div class="header-background">
     <h3>The Rookery</h3>
     </div>
-        <h1> Before First Boss</h1>
+        <h1 id="section2"> Before First Boss</h1>
         <div class="container">
             <div class="area">
                 <h2>Notable Mobs:</h2>
@@ -30,17 +39,17 @@
                 so this damage combined with bolts can be dangerous</p>
             </div>
 
-    <h1>First Boss</h1>
+    <h1 id="section2">Kyrioss</h1>
         <div class="area">
             <h2>Kyrioss<img class="roundrect" src="kyrioss.png"></h2>
-            <p><span class="abilitynoint">Crashing thunder:</span> Everyone gets damaging circle, don't overlap these.<br></p>
-            <p><span class="abilitnoint">Wild lightning:</span> Cone of swirlies to dodge.<br></p>
-            <p><span class="abilitynoint"">Lightning Torrent:</span> An intermission phase that happens at 100 energy. Boss teleports to middle of the room and gets 4 orbs around him.<br>
+            <p><span class="abilitynoint">Crashing thunder:</span> Everyone gets damaging circle, don't overlap these.<br>
+            <span class="abilitnoint">Wild lightning:</span> Cone of swirlies to dodge.<br>
+            <span class="abilitynoint"">Lightning Torrent:</span> An intermission phase that happens at 100 energy. Boss teleports to middle of the room and gets 4 orbs around him.<br>
                 The orbs turn into rotating beams. Find a safe spot between two orbs. Slowly pulses aoe damage when the beams are rotating. During intermission everyone gets circles under them periodically.
             </p>
         </div>
 
-    <h1> Before Second Boss</h1>
+    <h1 id="section3"> Before Second Boss</h1>
         <div class="container">
             <div class="area">
                 <h2>Notable Mobs:</h2>
@@ -61,17 +70,17 @@
                 </p>
         </div>
 
-    <h1>Second Boss</h1>
+    <h1 id="section4">Stormguard Corren</h1>
     <div class="area">
         <h2>Stormguard Corren<img class="roundrect" src="korren.png"></h2>
         <p>The main mechanic here is his ability <span class="abilitynoint">Chaotic Corruption:</span><br>
             This is a hot potato 4s DoT debuff, meaning it spreads after it times out/gets dispelled. It spreads to the closest person and leaves the holder with a
             6s vulnerability debuff. You always have to pass it to someone new.<br>
+        <span class="abilitynoint">Crush Reality:</span> Targets someone with a big circle that Corren jumps to. When he lands, cyclones will spawn from the circle. This makes positioning with the debuff complicated.<br>
+        <span class="abilitynoint">Dark Gravity:</span> Boss tries to suck in players while dealing ticking aoe damage. Both this and <span class="abilitynoint">Crush Reality:</span> leave puddles after them.<br>
         </p>
-        <p><span class="abilitynoint">Crush Reality:</span> Targets someone with a big circle that Corren jumps to. When he lands, cyclones will spawn from the circle. This makes positioning with the debuff complicated.<br></p>
-        <p><span class="abilitynoint">Dark Gravity:</span> Boss tries to suck in players while dealing ticking aoe damage. Both this and <span class="abilitynoint">Crush Reality:</span> leave puddles after them.<br></p>
-´    </div>
-    <h1>Before Final Boss</h1>
+    </div>
+    <h1 id="section5">Before Final Boss</h1>
         <div class="area">
             <h2>Notable Mobs:</h2>
             <p><strong class="caster">Void Ascendant:</strong><br></p>
@@ -88,13 +97,13 @@
                 This gets very fucky very fast with the damage amp/decreasing debuffs.<br>
             </p>
         </div>
-    <h1>Final Boss</h1>
+    <h1 id="section6">Voidstone Monstrosity</h1>
     <div class="area">
         <h2>Voidstone Monstrosity<img class="roundrect" src="monstrosity.png"></h2>
-        <p>Boss is stationary in the middle of a U-shaped, so there are 3 sides to it. It is encouraged to spread out. Healer should always be in the middle to reach people.</p>
-        <p><span class="tankbuster">Oblivion Wave:</span> Tankbuster that spawns a wave of shadow that shoots out behind the tank. Aim this away from people.<br></p>
-        <p><span class="abilitynoint"> Unstable Corruption:</span> Puts <span style='text-color:white; font-weight:bold;'>2 magic debuffs</span> on players that leave puddles when timed out/dispelled.<br></p>
-        <p><span class="abilitynoint">Null upheaval:</span>Massive aoe slam that spawn swirlies.<br>
+        <p>Boss is stationary in the middle of a U-shaped, so there are 3 sides to it. It is encouraged to spread out. Healer should always be in the middle to reach people.<br>
+        <span class="tankbuster">Oblivion Wave:</span> Tankbuster that spawns a wave of shadow that shoots out behind the tank. Aim this away from people.<br>
+        <span class="abilitynoint"> Unstable Corruption:</span> Puts <span style='text-color:white; font-weight:bold;'>2 magic debuffs</span> on players that leave puddles when timed out/dispelled.<br>
+        <span class="abilitynoint">Null upheaval:</span>Massive aoe slam that spawn swirlies.<br>
             Also spawns 4 void pillars around the area. 2 at the front and 1 at each side at the points of the U. After the slam players will get a <span style='text-color: blue; font-weight:bold;'> blue circle</span>
             around them. Use these to detonate the pillars. This is why we should spread. If pillars are detonated they will spawn an AOE pulsing add that basically just wipes us.<br>
         </p>
